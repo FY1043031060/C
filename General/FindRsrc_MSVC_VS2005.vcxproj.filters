@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4fecef18-7c80-435d-b71a-eee5105d0f44}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{986dd620-d164-46bf-99de-a2d71be58dc0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{5a49e625-b6b3-4c45-a376-b7271e670c39}</UniqueIdentifier>
+      <Extensions>lib</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FindRsrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(VXIPNPPATH)\WinNT\include\visa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(VXIPNPPATH)\WinNT\include\visatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

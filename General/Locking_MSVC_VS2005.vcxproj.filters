@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1a2abbc4-f180-4c70-a12f-ab31fc3bb9b5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7bc2eaff-38eb-4e24-b6e6-e07a74de909d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{5e7247d5-9328-4d26-97bf-c22d1eb99055}</UniqueIdentifier>
+      <Extensions>lib</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Locking.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(VXIPNPPATH)\WinNT\include\visa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(VXIPNPPATH)\WinNT\include\visatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

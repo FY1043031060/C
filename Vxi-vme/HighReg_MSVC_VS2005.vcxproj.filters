@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c57fde6b-f5f6-4f99-b0cf-3ecff1bedfbf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0fca3b3c-76ca-4072-9ab5-e7e3927522ad}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{5a164490-39c8-4bad-9487-8a306c217a34}</UniqueIdentifier>
+      <Extensions>lib</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HighReg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(VXIPNPPATH)\WinNT\include\visa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(VXIPNPPATH)\WinNT\include\visatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
